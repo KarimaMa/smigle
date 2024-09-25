@@ -1,5 +1,8 @@
 # smigle-hugo-theme
 
+I've edited the smigle-hugo theme for my personal website. Below is the original
+smigle readme:
+
 A minimalist theme for the static site generator [Hugo][hugo]. This
 theme is shared on Hugo's [official collection of
 themes][theme-collection].
