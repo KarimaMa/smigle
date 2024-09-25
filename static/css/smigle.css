@@ -1,5 +1,5 @@
 #root {
-  font-family: Iosevka, monospace;
+  font-family: Roboto Mono;
   max-width: 750px;
   margin: 0 auto;
   padding: 10px;
@@ -14,18 +14,42 @@
   color: var(--fontcolor);
   text-decoration: none;
 }
+a:link {
+  color: #487AA1;
+}
+a:visited {
+  color: #E07050;
+}
 #brand h1, #brand h3 {
   margin: 0;
 }
 #brand h1 {
   font-size: 30px;
 }
+h2 {
+  margin-block-start: 20px;
+  margin-block-end: 10px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+p {
+  margin-block-start: 5px;
+  margin-block-end: 10px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+p.builtWith {
+  font-size: 12px;
+}
+p.copyright {
+  font-size: 12px;
+}
 #brand h3 {
   font-size: 20px;
   font-weight: normal;
 }
 #brand .icon {
-  width: 75px;
+  width: 150px;
 }
 footer {
   margin-top: 30px;
